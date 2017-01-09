@@ -57,7 +57,7 @@
         "symfony/process": "2.8.14",
         "symfony/translation": "2.8.14",
         "symfony/yaml": "2.8.14",
-        "symfony/event-dispatcher": "2.8.14"
+        "symfony/event-dispatcher": "3.1.8"
     },
     "bin": ["bin/drupal"],
     "config": {
