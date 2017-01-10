@@ -35,9 +35,17 @@
         "forum": "https://gitter.im/hechoendrupal/DrupalConsole",
         "docs": "http://docs.drupalconsole.com/"
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:dennisinteractive/drupal-console-core.git",
+            "vendor-alias": "drupal",
+            "no-api": true
+        }
+    ],
     "require": {
         "php": "^5.5.9 || ^7.0",
-        "drupal/console-core" : "dev-master",
+        "drupal/console-core": "nested_chains-dev",
         "padraic/phar-updater": "~1.0@dev",
         "phpseclib/phpseclib": "2.*",
         "symfony/console": "2.8.14",

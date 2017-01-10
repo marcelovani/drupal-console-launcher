@@ -4,7 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "6303e488dc6cb4c5dda5fb42a3a022b3",
+    "hash": "de041ce60e1a06a53795e54ac73af3d5",
+    "content-hash": "7b49884455313d12cd7b8ccfea27f67b",
     "packages": [
         {
             "name": "dflydev/dot-access-configuration",
@@ -118,7 +119,7 @@
                 "dot",
                 "notation"
             ],
-            "time": "2015-08-13T03:51:18+00:00"
+            "time": "2015-08-13 03:51:18"
         },
         {
             "name": "dflydev/placeholder-resolver",
@@ -170,20 +171,20 @@
                 "placeholder",
                 "resolver"
             ],
-            "time": "2012-10-28T21:08:28+00:00"
+            "time": "2012-10-28 21:08:28"
         },
         {
             "name": "drupal/console-core",
-            "version": "dev-master",
+            "version": "dev-nested_chains",
             "source": {
                 "type": "git",
-                "url": "https://github.com/hechoendrupal/drupal-console-core.git",
-                "reference": "4bc30ba4e76f0c9e26d761a6b3367827997d3df9"
+                "url": "git@github.com:dennisinteractive/drupal-console-core.git",
+                "reference": "e892ec27ffe31833093737c3eca40d99e6aa8957"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hechoendrupal/drupal-console-core/zipball/4bc30ba4e76f0c9e26d761a6b3367827997d3df9",
-                "reference": "4bc30ba4e76f0c9e26d761a6b3367827997d3df9",
+                "url": "https://api.github.com/repos/dennisinteractive/drupal-console-core/zipball/e892ec27ffe31833093737c3eca40d99e6aa8957",
+                "reference": "e892ec27ffe31833093737c3eca40d99e6aa8957",
                 "shasum": ""
             },
             "require": {
@@ -214,7 +215,6 @@
                     "Drupal\\Console\\Core\\": "src"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-2.0+"
             ],
@@ -230,10 +230,6 @@
                     "homepage": "http://jmolivas.com"
                 },
                 {
-                    "name": "Drupal Console Contributors",
-                    "homepage": "https://github.com/hechoendrupal/DrupalConsole/graphs/contributors"
-                },
-                {
                     "name": "Eduardo Garcia",
                     "email": "enzo@enzolutions.com",
                     "homepage": "http://enzolutions.com/"
@@ -241,17 +237,26 @@
                 {
                     "name": "Omar Aguirre",
                     "email": "omersguchigu@gmail.com"
+                },
+                {
+                    "name": "Drupal Console Contributors",
+                    "homepage": "https://github.com/hechoendrupal/DrupalConsole/graphs/contributors"
                 }
             ],
             "description": "Drupal Console Core",
             "homepage": "http://drupalconsole.com/",
             "keywords": [
-                "console",
-                "development",
-                "drupal",
-                "symfony"
+                "Console",
+                "Development",
+                "Drupal",
+                "Symfony"
             ],
-            "time": "2017-01-08 05:11:34"
+            "support": {
+                "issues": "https://github.com/hechoendrupal/DrupalConsole/issues",
+                "forum": "https://gitter.im/hechoendrupal/DrupalConsole",
+                "docs": "http://docs.drupalconsole.com/"
+            },
+            "time": "2017-01-10 14:23:48"
         },
         {
             "name": "drupal/console-en",
@@ -362,7 +367,7 @@
                 "ssl",
                 "tls"
             ],
-            "time": "2015-04-22T18:45:00+00:00"
+            "time": "2015-04-22 18:45:00"
         },
         {
             "name": "padraic/phar-updater",
@@ -414,7 +419,7 @@
                 "self-update",
                 "update"
             ],
-            "time": "2016-01-05T23:08:01+00:00"
+            "time": "2016-01-05 23:08:01"
         },
         {
             "name": "phpseclib/phpseclib",
@@ -506,7 +511,7 @@
                 "x.509",
                 "x509"
             ],
-            "time": "2016-10-04T00:57:04+00:00"
+            "time": "2016-10-04 00:57:04"
         },
         {
             "name": "psr/log",
@@ -553,7 +558,7 @@
                 "psr",
                 "psr-3"
             ],
-            "time": "2016-10-10T12:19:37+00:00"
+            "time": "2016-10-10 12:19:37"
         },
         {
             "name": "stecman/symfony-console-completion",
@@ -598,7 +603,7 @@
                 }
             ],
             "description": "Automatic BASH completion for Symfony Console Component based applications.",
-            "time": "2016-02-24T05:08:54+00:00"
+            "time": "2016-02-24 05:08:54"
         },
         {
             "name": "symfony/config",
@@ -651,7 +656,7 @@
             ],
             "description": "Symfony Config Component",
             "homepage": "https://symfony.com",
-            "time": "2016-11-03T07:52:58+00:00"
+            "time": "2016-11-03 07:52:58"
         },
         {
             "name": "symfony/console",
@@ -712,7 +717,7 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "https://symfony.com",
-            "time": "2016-11-15T23:02:12+00:00"
+            "time": "2016-11-15 23:02:12"
         },
         {
             "name": "symfony/debug",
@@ -769,7 +774,7 @@
             ],
             "description": "Symfony Debug Component",
             "homepage": "https://symfony.com",
-            "time": "2016-11-15T12:53:17+00:00"
+            "time": "2016-11-15 12:53:17"
         },
         {
             "name": "symfony/dependency-injection",
@@ -832,7 +837,7 @@
             ],
             "description": "Symfony DependencyInjection Component",
             "homepage": "https://symfony.com",
-            "time": "2016-11-18T21:10:01+00:00"
+            "time": "2016-11-18 21:10:01"
         },
         {
             "name": "symfony/event-dispatcher",
@@ -892,7 +897,7 @@
             ],
             "description": "Symfony EventDispatcher Component",
             "homepage": "https://symfony.com",
-            "time": "2016-10-13T01:43:15+00:00"
+            "time": "2016-10-13 01:43:15"
         },
         {
             "name": "symfony/filesystem",
@@ -941,7 +946,7 @@
             ],
             "description": "Symfony Filesystem Component",
             "homepage": "https://symfony.com",
-            "time": "2016-10-18T04:28:30+00:00"
+            "time": "2016-10-18 04:28:30"
         },
         {
             "name": "symfony/finder",
@@ -990,7 +995,7 @@
             ],
             "description": "Symfony Finder Component",
             "homepage": "https://symfony.com",
-            "time": "2016-11-03T07:52:58+00:00"
+            "time": "2016-11-03 07:52:58"
         },
         {
             "name": "symfony/polyfill-mbstring",
@@ -1049,7 +1054,7 @@
                 "portable",
                 "shim"
             ],
-            "time": "2016-11-14T01:06:16+00:00"
+            "time": "2016-11-14 01:06:16"
         },
         {
             "name": "symfony/process",
@@ -1098,7 +1103,7 @@
             ],
             "description": "Symfony Process Component",
             "homepage": "https://symfony.com",
-            "time": "2016-09-29T14:03:54+00:00"
+            "time": "2016-09-29 14:03:54"
         },
         {
             "name": "symfony/translation",
@@ -1162,7 +1167,7 @@
             ],
             "description": "Symfony Translation Component",
             "homepage": "https://symfony.com",
-            "time": "2016-11-18T21:10:01+00:00"
+            "time": "2016-11-18 21:10:01"
         },
         {
             "name": "symfony/yaml",
@@ -1211,7 +1216,7 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "time": "2016-11-14T16:15:57+00:00"
+            "time": "2016-11-14 16:15:57"
         },
         {
             "name": "twig/twig",
@@ -1272,7 +1277,7 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2016-12-23T11:06:22+00:00"
+            "time": "2016-12-23 11:06:22"
         },
         {
             "name": "webflo/drupal-finder",
@@ -1309,7 +1314,7 @@
                 }
             ],
             "description": "Helper class to locate a Drupal installation from a given path.",
-            "time": "2016-11-28T18:50:45+00:00"
+            "time": "2016-11-28 18:50:45"
         }
     ],
     "packages-dev": [],
