@@ -13,18 +13,27 @@ use Drupal\Console\Launcher\Utils\Remote;
 
 set_time_limit(0);
 
-$pharRoot = __DIR__.DIRECTORY_SEPARATOR.'..'.DIRECTORY_SEPARATOR;
-$pharAutoload = $pharRoot.'vendor'.DIRECTORY_SEPARATOR.'autoload.php';
+// Support running from within another projects vendor directory.
+$backDir = '..'.DIRECTORY_SEPARATOR;
+$pharRoots = [
+    __DIR__.DIRECTORY_SEPARATOR.$backDir,
+    __DIR__.DIRECTORY_SEPARATOR.$backDir.$backDir.$backDir.$backDir,
+];
 
-if (file_exists($pharAutoload)) {
-    $autoload = include_once $pharAutoload;
-} else {
+foreach ($pharRoots as $pharRoot) {
+    $pharAutoload = $pharRoot.'vendor'.DIRECTORY_SEPARATOR.'autoload.php';
+    if (file_exists($pharAutoload)) {
+        $autoload = include_once $pharAutoload;
+    }
+}
+if (empty($autoload)) {
     echo ' Something is wrong with your drupal.phar archive.'.PHP_EOL.
          ' Try downloading again by executing from your terminal:'.PHP_EOL.
          ' curl https://drupalconsole.com/installer -L -o drupal.phar'.PHP_EOL;
 
     exit(1);
 }
+
 
 $argvInputReader = new ArgvInputReader();
 $drupalConsole = new DrupalConsoleCore($pharRoot);
