@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "2b8b3b8300d78f439900b637159538b1",
-    "content-hash": "fbe9561a69415ce00a1a8a12a3dab7fa",
+    "hash": "4f804338e2295760c48bf75ea9a3028d",
+    "content-hash": "728b44b1d886b66bb7f52d72f5e9189c",
     "packages": [
         {
             "name": "dflydev/dot-access-configuration",
@@ -1171,25 +1171,25 @@
         },
         {
             "name": "symfony/yaml",
-            "version": "v2.8.14",
+            "version": "v3.1.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
-                "reference": "befb26a3713c97af90d25dd12e75621ef14d91ff"
+                "reference": "da61ca54e755bda2108f97ce67c37f0713df15b2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/befb26a3713c97af90d25dd12e75621ef14d91ff",
-                "reference": "befb26a3713c97af90d25dd12e75621ef14d91ff",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/da61ca54e755bda2108f97ce67c37f0713df15b2",
+                "reference": "da61ca54e755bda2108f97ce67c37f0713df15b2",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.9"
+                "php": ">=5.5.9"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.8-dev"
+                    "dev-master": "3.1-dev"
                 }
             },
             "autoload": {
@@ -1216,7 +1216,7 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "time": "2016-11-14 16:15:57"
+            "time": "2016-12-03 10:04:08"
         },
         {
             "name": "twig/twig",
