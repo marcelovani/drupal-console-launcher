@@ -45,7 +45,7 @@
     ],
     "require": {
         "php": "^5.5.9 || ^7.0",
-        "drupal/console-core": "nested_chains-dev",
+        "drupal/console-core": "fix_env_detection-dev",
         "padraic/phar-updater": "~1.0@dev",
         "phpseclib/phpseclib": "2.*",
         "symfony/console": "2.8.14",

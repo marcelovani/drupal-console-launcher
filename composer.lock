@@ -4,8 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "de041ce60e1a06a53795e54ac73af3d5",
-    "content-hash": "7b49884455313d12cd7b8ccfea27f67b",
+    "content-hash": "58730836f7d54702453104a5255221f9",
     "packages": [
         {
             "name": "dflydev/dot-access-configuration",
@@ -119,7 +118,7 @@
                 "dot",
                 "notation"
             ],
-            "time": "2015-08-13 03:51:18"
+            "time": "2015-08-13T03:51:18+00:00"
         },
         {
             "name": "dflydev/placeholder-resolver",
@@ -171,20 +170,20 @@
                 "placeholder",
                 "resolver"
             ],
-            "time": "2012-10-28 21:08:28"
+            "time": "2012-10-28T21:08:28+00:00"
         },
         {
             "name": "drupal/console-core",
-            "version": "dev-nested_chains",
+            "version": "dev-fix_env_detection",
             "source": {
                 "type": "git",
                 "url": "git@github.com:dennisinteractive/drupal-console-core.git",
-                "reference": "e892ec27ffe31833093737c3eca40d99e6aa8957"
+                "reference": "4dbba3f7c83988d884e64d75a66a0698596f53ee"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dennisinteractive/drupal-console-core/zipball/e892ec27ffe31833093737c3eca40d99e6aa8957",
-                "reference": "e892ec27ffe31833093737c3eca40d99e6aa8957",
+                "url": "https://api.github.com/repos/dennisinteractive/drupal-console-core/zipball/4dbba3f7c83988d884e64d75a66a0698596f53ee",
+                "reference": "4dbba3f7c83988d884e64d75a66a0698596f53ee",
                 "shasum": ""
             },
             "require": {
@@ -256,7 +255,7 @@
                 "forum": "https://gitter.im/hechoendrupal/DrupalConsole",
                 "docs": "http://docs.drupalconsole.com/"
             },
-            "time": "2017-01-10 14:23:48"
+            "time": "2017-08-04 11:14:06"
         },
         {
             "name": "drupal/console-en",
@@ -264,12 +263,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/hechoendrupal/drupal-console-en.git",
-                "reference": "2da817d8cc862b694bc14941c91201e778f801ae"
+                "reference": "9db52478c5870d535f2e507f51142c7ed1a17098"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hechoendrupal/drupal-console-en/zipball/2da817d8cc862b694bc14941c91201e778f801ae",
-                "reference": "2da817d8cc862b694bc14941c91201e778f801ae",
+                "url": "https://api.github.com/repos/hechoendrupal/drupal-console-en/zipball/9db52478c5870d535f2e507f51142c7ed1a17098",
+                "reference": "9db52478c5870d535f2e507f51142c7ed1a17098",
                 "shasum": ""
             },
             "type": "drupal-console-language",
@@ -310,19 +309,19 @@
                 "drupal",
                 "symfony"
             ],
-            "time": "2017-01-07 03:56:38"
+            "time": "2017-08-02 13:46:40"
         },
         {
             "name": "padraic/humbug_get_contents",
             "version": "1.0.4",
             "source": {
                 "type": "git",
-                "url": "https://github.com/padraic/file_get_contents.git",
+                "url": "https://github.com/humbug/file_get_contents.git",
                 "reference": "66797199019d0cb4529cb8d29c6f0b4c5085b53a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/padraic/file_get_contents/zipball/66797199019d0cb4529cb8d29c6f0b4c5085b53a",
+                "url": "https://api.github.com/repos/humbug/file_get_contents/zipball/66797199019d0cb4529cb8d29c6f0b4c5085b53a",
                 "reference": "66797199019d0cb4529cb8d29c6f0b4c5085b53a",
                 "shasum": ""
             },
@@ -367,19 +366,19 @@
                 "ssl",
                 "tls"
             ],
-            "time": "2015-04-22 18:45:00"
+            "time": "2015-04-22T18:45:00+00:00"
         },
         {
             "name": "padraic/phar-updater",
             "version": "1.0.3",
             "source": {
                 "type": "git",
-                "url": "https://github.com/padraic/phar-updater.git",
+                "url": "https://github.com/humbug/phar-updater.git",
                 "reference": "c17eeb3887dc4269d1b4837dc875d39e9f8149a8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/padraic/phar-updater/zipball/c17eeb3887dc4269d1b4837dc875d39e9f8149a8",
+                "url": "https://api.github.com/repos/humbug/phar-updater/zipball/c17eeb3887dc4269d1b4837dc875d39e9f8149a8",
                 "reference": "c17eeb3887dc4269d1b4837dc875d39e9f8149a8",
                 "shasum": ""
             },
@@ -407,7 +406,7 @@
             ],
             "authors": [
                 {
-                    "name": "Pádraic Brady",
+                    "name": "Padraic Brady",
                     "email": "padraic.brady@gmail.com",
                     "homepage": "http://blog.astrumfutura.com"
                 }
@@ -419,7 +418,7 @@
                 "self-update",
                 "update"
             ],
-            "time": "2016-01-05 23:08:01"
+            "time": "2016-01-05T23:08:01+00:00"
         },
         {
             "name": "phpseclib/phpseclib",
@@ -511,7 +510,7 @@
                 "x.509",
                 "x509"
             ],
-            "time": "2016-10-04 00:57:04"
+            "time": "2016-10-04T00:57:04+00:00"
         },
         {
             "name": "psr/log",
@@ -558,7 +557,7 @@
                 "psr",
                 "psr-3"
             ],
-            "time": "2016-10-10 12:19:37"
+            "time": "2016-10-10T12:19:37+00:00"
         },
         {
             "name": "stecman/symfony-console-completion",
@@ -603,7 +602,7 @@
                 }
             ],
             "description": "Automatic BASH completion for Symfony Console Component based applications.",
-            "time": "2016-02-24 05:08:54"
+            "time": "2016-02-24T05:08:54+00:00"
         },
         {
             "name": "symfony/config",
@@ -656,7 +655,7 @@
             ],
             "description": "Symfony Config Component",
             "homepage": "https://symfony.com",
-            "time": "2016-11-03 07:52:58"
+            "time": "2016-11-03T07:52:58+00:00"
         },
         {
             "name": "symfony/console",
@@ -717,7 +716,7 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "https://symfony.com",
-            "time": "2016-11-15 23:02:12"
+            "time": "2016-11-15T23:02:12+00:00"
         },
         {
             "name": "symfony/debug",
@@ -774,7 +773,7 @@
             ],
             "description": "Symfony Debug Component",
             "homepage": "https://symfony.com",
-            "time": "2016-11-15 12:53:17"
+            "time": "2016-11-15T12:53:17+00:00"
         },
         {
             "name": "symfony/dependency-injection",
@@ -837,7 +836,7 @@
             ],
             "description": "Symfony DependencyInjection Component",
             "homepage": "https://symfony.com",
-            "time": "2016-11-18 21:10:01"
+            "time": "2016-11-18T21:10:01+00:00"
         },
         {
             "name": "symfony/event-dispatcher",
@@ -897,7 +896,7 @@
             ],
             "description": "Symfony EventDispatcher Component",
             "homepage": "https://symfony.com",
-            "time": "2016-10-13 01:43:15"
+            "time": "2016-10-13T01:43:15+00:00"
         },
         {
             "name": "symfony/filesystem",
@@ -946,7 +945,7 @@
             ],
             "description": "Symfony Filesystem Component",
             "homepage": "https://symfony.com",
-            "time": "2016-10-18 04:28:30"
+            "time": "2016-10-18T04:28:30+00:00"
         },
         {
             "name": "symfony/finder",
@@ -995,7 +994,7 @@
             ],
             "description": "Symfony Finder Component",
             "homepage": "https://symfony.com",
-            "time": "2016-11-03 07:52:58"
+            "time": "2016-11-03T07:52:58+00:00"
         },
         {
             "name": "symfony/polyfill-mbstring",
@@ -1054,7 +1053,7 @@
                 "portable",
                 "shim"
             ],
-            "time": "2016-11-14 01:06:16"
+            "time": "2016-11-14T01:06:16+00:00"
         },
         {
             "name": "symfony/process",
@@ -1103,7 +1102,7 @@
             ],
             "description": "Symfony Process Component",
             "homepage": "https://symfony.com",
-            "time": "2016-09-29 14:03:54"
+            "time": "2016-09-29T14:03:54+00:00"
         },
         {
             "name": "symfony/translation",
@@ -1167,7 +1166,7 @@
             ],
             "description": "Symfony Translation Component",
             "homepage": "https://symfony.com",
-            "time": "2016-11-18 21:10:01"
+            "time": "2016-11-18T21:10:01+00:00"
         },
         {
             "name": "symfony/yaml",
@@ -1216,7 +1215,7 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "time": "2016-11-14 16:15:57"
+            "time": "2016-11-14T16:15:57+00:00"
         },
         {
             "name": "twig/twig",
@@ -1277,7 +1276,7 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2016-12-23 11:06:22"
+            "time": "2016-12-23T11:06:22+00:00"
         },
         {
             "name": "webflo/drupal-finder",
@@ -1314,7 +1313,7 @@
                 }
             ],
             "description": "Helper class to locate a Drupal installation from a given path.",
-            "time": "2016-11-28 18:50:45"
+            "time": "2016-11-28T18:50:45+00:00"
         }
     ],
     "packages-dev": [],
