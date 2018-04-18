@@ -37,7 +37,7 @@
     },
     "require": {
         "php": "^5.5.9 || ^7.0",
-        "drupal/console-core": "1.8.0",
+        "drupal/console-core": "dev-marcelo",
         "padraic/phar-updater": "~1.0@dev"
     },
     "bin": ["bin/drupal"],
@@ -49,5 +49,11 @@
     "prefer-stable": true,
     "autoload": {
         "psr-4": {"Drupal\\Console\\Launcher\\": "src"}
+    },
+    "repositories": {
+        "console-launcher": {
+            "type": "vcs",
+            "url": "https://github.com/dennisinteractive/drupal-console-launcher.git"
+        }
     }
 }
