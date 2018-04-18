@@ -51,9 +51,9 @@
         "psr-4": {"Drupal\\Console\\Launcher\\": "src"}
     },
     "repositories": {
-        "console-launcher": {
+        "console-core": {
             "type": "vcs",
-            "url": "https://github.com/dennisinteractive/drupal-console-launcher.git"
+            "url": "https://github.com/dennisinteractive/drupal-console-core.git"
         }
     }
 }
